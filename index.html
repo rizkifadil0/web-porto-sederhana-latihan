@@ -16,7 +16,22 @@
         <li><a href="#about">About Me</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <i data-feather="menu" class="menu"></i>
+      <i
+        data-feather="menu"
+        onclick="toggleNavbar()"
+        class="menu"
+        id="hamMenu"
+      ></i>
+    </nav>
+
+    <!-- navbar responsive ham menu-->
+
+    <nav class="navbarR" id="navbarR">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
     <div class="container">
@@ -117,5 +132,6 @@
     <script>
       feather.replace();
     </script>
+    <script src="script.js"></script>
   </body>
 </html>
